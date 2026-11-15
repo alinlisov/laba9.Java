@@ -1,0 +1,14 @@
+PASS: bank: successful transfer
+PASS: bank: reject insufficient funds
+PASS: bank: reject same account
+PASS: bank: reject nonpositive amount
+PASS: bank: reject a foreign account
+PASS: bank: opposite transfers without deadlock
+PASS: bank: 3000 virtual transfer threads
+PASS: ring: first-in first-out
+PASS: ring: wrap-around and capacity
+PASS: ring: consumer waits when empty
+PASS: ring: producer waits when full
+PASS: ring: invalid capacity
+PASS: producer-consumer: 5+2 daemons, exactly 100 unique
+УСПІШНО: 13 тестів із 13
